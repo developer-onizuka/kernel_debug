@@ -1,0 +1,6 @@
+$ view linux-5.8/arch/x86/include/sparsemem.h 
+...
+# define MAX_PHYSMEM_BITS       (pgtable_l5_enabled() ? 52 : 46)
+...
+
+
